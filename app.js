@@ -10,7 +10,7 @@ function loadJokes(){
 	console.log(input);
 
 	
-	xhr.open('GET',`http://api.icndb.com/jokes/random/${input}`,true);
+	xhr.open('GET',`https://api.icndb.com/jokes/random/${input}`,true);
 
 
 	xhr.onload=function(){
